@@ -1,0 +1,52 @@
+.space{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    height: 20%;
+}
+.mind{
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    height: 20%;
+}
+
+.reality{
+    position: absolute;
+    top: 75%;
+    left: 25%;
+    height: 20%;
+}
+
+.power{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    height: 20%;
+}
+
+.time{
+    position: absolute;
+    top: 40%;
+    left: 75%;
+    height: 20%;
+}
+
+.soul{
+    position: absolute;
+    top: 75%;
+    left: 65%;
+    height: 20%;
+}
+
+.gauntlet{
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    height: 80%;
+    width: auto;
+}
+
+.gem{
+    display: none;
+}
