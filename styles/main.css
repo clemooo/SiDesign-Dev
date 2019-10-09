@@ -11,11 +11,12 @@ body {
   left: 25%;
   height: 200px;
 }
-.mind {
-  position: absolute;
-  top: 40%;
-  left: 15%;
-  height: 200px;
+
+.power{
+    position: absolute;
+    top: 10%;
+    left: 65%;
+    height: 200px;
 }
 
 .reality {
