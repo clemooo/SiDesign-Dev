@@ -52,14 +52,8 @@ body {
   flex-direction: column;
 }
 
-<<<<<<< HEAD
 .container-gant #stone:hover{
   cursor: pointer;
-=======
-iframe {
-  width: 100vw;
-  height: 100vh;
->>>>>>> 1479f9e8a4f6b126b843f72ae8b62290133b9ae0
 }
 .container-gant a {
   position: absolute;
