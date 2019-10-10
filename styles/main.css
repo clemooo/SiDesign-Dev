@@ -207,8 +207,9 @@ body {
 }
 
 .atmo {
-  display: none;
+    display: none;
 }
+
 #para-text {
   position: absolute;
   color: white;
