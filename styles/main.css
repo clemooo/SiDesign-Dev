@@ -2,9 +2,8 @@ body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em 'Gotham-';
+  font: 1.2em "Gotham-light";
 }
-
 #stone {
   position: absolute;
   height: 20%;
@@ -184,8 +183,8 @@ body {
 #stone:hover {
   filter: saturate(2);
   margin-top: 5px;
-  -webkit-transform: scale(1.3);
-  transform: scale(1.3);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .fond {
@@ -215,4 +214,5 @@ body {
   left: 4%;
   top: 70%;
   font-size: 3vh;
+  font: "Gotham-bold";
 }
