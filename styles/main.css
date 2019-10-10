@@ -1,6 +1,7 @@
 body {
   display: inline-block;
   flex-direction: column;
+  margin: 0;
 }
 .space {
   position: absolute;
@@ -59,14 +60,15 @@ container-gant {
   position: relative;
   width: 100vw;
   height: 100vh;
+  z-index: 3;
 }
 .gem {
   display: none;
 }
 .image-padding {
   position: fixed;
-  width: 100%;
-  height: auto;
+  width: 100vw;
+  height: 100vh;
   animation: animate 20s linear infinite;
 }
 @keyframes animate {
@@ -77,12 +79,27 @@ container-gant {
     right: 600px;
   }
 }
-.container-gant {
-  width: 100%;
-  height: 100%;
-  z-index: 3;
+
+#stone {
+  animation: animate1 5s linear;
 }
-.fond{
-  z-index: 1;
+@keyframes animate1 {
+  0% {
+    top: 100px;
+  }
+  25% {
+    top: 100px;
+  }
+  50% {
+    left: 10px;
+  }
+  100% {
+    right: 200px;
+  }
 }
 
+.fond {
+  width: 100vw;
+  height: 100vh;
+  z-index: 1;
+}
