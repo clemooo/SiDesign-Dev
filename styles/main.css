@@ -1,8 +1,12 @@
+@@font-face {
+  font-style: 'Gotham';
+  src:url('fonts/gothambook') format('truetype') ;
+}
 body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em 'Gotham-';
+  font: 1.2em 'Gotham';
 }
 
 #stone {
@@ -58,7 +62,7 @@ body {
 .container-gant .scroller {
   position: absolute;
   padding-top: 50px;
-  bottom: 10px;
+  bottom: 1px;
   left: 50%;
   display: inline-block;
   transform: translate(0, -50%);
