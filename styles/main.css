@@ -197,16 +197,11 @@ body {
   position: absolute;
   left: 22%;
   top: 2%;
-}
-#srool-arrow {
-  position: absolute;
-  left: 22%;
-  top: 2%;
-  rotate: 180deg;
+  display: block;
 }
 
 .atmo {
-    display: none;
+  display: none;
 }
 
 #para-text {
