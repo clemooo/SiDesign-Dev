@@ -1,5 +1,5 @@
-@font-face {
-  font-family: 'Gotham';
+@@font-face {
+  font-style: 'Gotham';
   src:url('fonts/gothambook') format('truetype') ;
 }
 body {
@@ -169,7 +169,7 @@ body {
 .fond {
   width: 100vw;
   height: 100vh;
-  z-index: 1;
+  z-index: -1;
 }
 
 #logo-avenger {
@@ -180,7 +180,7 @@ body {
   }
 
 .atmo {
-  display: none;
+    display: none;
 }
 
 #para-text {
@@ -190,8 +190,7 @@ body {
   top: 70%;
   font-size: 3vh;
 }
-#vod-avenger{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+
+.bizzaro{
+    filter: hue-rotate(90deg);
 }
