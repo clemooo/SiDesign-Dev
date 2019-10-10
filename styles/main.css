@@ -99,13 +99,18 @@ container-gant {
   }
 }
 
-#stone :hover{
-  transform: rotate(360deg);
-  background-color;: ;
+#stone:hover {
+  filter: saturate(2);
 }
 
 .fond {
   width: 100vw;
   height: 100vh;
   z-index: 1;
+}
+
+#logo-avenger {
+  position: absolute;
+  left: 22%;
+  top: 2%;
 }
