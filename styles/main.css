@@ -1,16 +1,12 @@
-@font-face {
-  font-family: 'Gotham';
+@@font-face {
+  font-style: 'Gotham';
   src:url('fonts/gothambook') format('truetype') ;
-}
-@font-face {
-  font-family: 'Gotham-Light';
-  src:url('fonts/Gotham-Light') format('opentype') ;
 }
 body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em 'Gotham-light';
+  font: 1.2em 'Gotham';
 }
 
 #stone {
@@ -81,10 +77,9 @@ body {
 .container-gant .scroller span {
   position: absolute;
   top: 0;
-  left: 5vh;
-  width: 2vh;
-  height: 50%;
-  left: 90%;
+  left: 50%;
+  width: 24px;
+  height: 24px;
   margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
@@ -173,7 +168,7 @@ body {
 .fond {
   width: 100vw;
   height: 100vh;
-  z-index: 1;
+  z-index: -1;
 }
 
 #logo-avenger {
@@ -184,7 +179,7 @@ body {
   }
 
 .atmo {
-  display: none;
+    display: none;
 }
 
 #para-text {
@@ -194,8 +189,7 @@ body {
   top: 70%;
   font-size: 3vh;
 }
-#vod-avenger{
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+
+.bizzaro{
+    filter: hue-rotate(90deg);
 }
