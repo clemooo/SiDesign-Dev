@@ -2,8 +2,9 @@ body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em "Gotham-light";
+  font: 1.2em 'Gotham-';
 }
+
 #stone {
   position: absolute;
   height: 20%;
@@ -156,8 +157,8 @@ body {
 #stone:hover {
   filter: saturate(2);
   margin-top: 5px;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .fond {
@@ -173,12 +174,6 @@ body {
   width: 60%;
 
 }
-#srool-arrow {
-  position: absolute;
-  left: 22%;
-  top: 2%;
-  rotate: 180deg;
-}
 
 .atmo {
     display: none;
@@ -190,5 +185,4 @@ body {
   left: 4%;
   top: 70%;
   font-size: 3vh;
-  font: "Gotham-bold";
 }
