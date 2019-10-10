@@ -99,8 +99,9 @@ container-gant {
   }
 }
 
-#stone :hover {
-  animation: animate1 5s linear;
+#stone :hover{
+  transform: rotate(360deg);
+  background-color;: ;
 }
 
 .fond {
