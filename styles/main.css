@@ -101,8 +101,8 @@ container-gant {
   }
 }
 
-#stone:hover {
-  filter: saturate(2);
+#stone:hover{
+    filter: saturate(2);
 }
 
 .fond {
@@ -121,4 +121,7 @@ container-gant {
   left: 22%;
   top: 2%;
   rotate: 180deg;
+
+.atmo{
+    display: none;
 }
