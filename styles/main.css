@@ -2,7 +2,7 @@ body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em 'Gotham-light';
+  font: 1.2em 'Gotham-';
 }
 
 #stone {
