@@ -1,88 +1,91 @@
 body {
-  display: inline-block;
-  flex-direction: column;
+    display: inline-block;
+    flex-direction: column;
 }
+
+#stone{
+    position: absolute;
+    height: 20%;
+    width: 12%;
+}
+
 .space {
-  position: absolute;
-  top: 10%;
-  left: 25%;
-  height: 20%;
+    top: 10%;
+    left: 25%;
 }
 .mind {
-  position: absolute;
-  top: 40%;
-  left: 15%;
-  height: 20%;
+    top: 40%;
+    left: 15%;
 }
 
 .reality {
-  position: absolute;
-  top: 75%;
-  left: 25%;
-  height: 20%;
+    top: 75%;
+    left: 25%;
 }
 
 .power {
-  position: absolute;
-  top: 10%;
-  left: 65%;
-  height: 20%;
+    top: 10%;
+    left: 65%;
 }
 
 .time {
-  position: absolute;
-  top: 40%;
-  left: 75%;
-  height: 20%;
+    top: 40%;
+    left: 75%;
 }
 
 .soul {
-  position: absolute;
-  top: 75%;
-  left: 65%;
-  height: 20%;
+    top: 75%;
+    left: 65%;
 }
 
 .gauntlet {
-  position: absolute;
-  top: 10%;
-  left: 17%;
-  height: 80%;
-  width: auto;
+    position: absolute;
+    top: 10%;
+    left: 17%;
+    height: 80%;
+    width: 70%;
 }
+
 .container-video {
-  flex-direction: column;
+    flex-direction: column;
 }
+
 video {
 }
+
 container-gant {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
+    position: relative;
+    width: 100vw;
+    height: 100vh;
 }
+
 .gem {
-  display: none;
+    display: none;
 }
+
 .image-padding {
-  position: fixed;
-  width: 100%;
-  height: auto;
-  animation: animate 20s linear infinite;
+    position: fixed;
+    width: 100%;
+    height: auto;
+    animation: animate 20s linear infinite;
 }
+
 @keyframes animate {
-  0% {
-    right: 0px;
-  }
-  100% {
-    right: 600px;
-  }
+    0% {
+	right: 0px;
+    }
+    100% {
+	right: 600px;
+    }
 }
+
 .container-gant {
-  width: 100%;
-  height: 100%;
-  z-index: 3;
+    width: 100%;
+    height: 100%;
+    z-index: 3;
 }
+
 .fond{
-  z-index: 1;
+    z-index: 1;
 }
 
