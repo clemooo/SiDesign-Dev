@@ -172,8 +172,7 @@ body {
   left: 21%;
   top: 2%;
   width: 60%;
-
-}
+  }
 
 .atmo {
   display: none;
@@ -185,4 +184,7 @@ body {
   left: 4%;
   top: 70%;
   font-size: 3vh;
+}
+#brushanimate{
+
 }
