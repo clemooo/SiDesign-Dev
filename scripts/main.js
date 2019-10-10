@@ -12,21 +12,14 @@ stones[5].onclick = function(){take_stone(stones, gems, story, 5)}
 
 function take_stone(stones, gems, story, type){
     let i = 0
-    
+
+    for (i = 0; i <= 5; i++)
+	story[i].pause()
     stones[type].style.display = "none"
     gems[type].style.display = "initial"
     story[type].play()
-    container.style.pointerEvents = "none"
-    setTimeout(function(){
-	container.style.pointerEvents = "auto"
-    }, story[type].duration * 1000);
     for (i = 0; i < 6 && gems[i].style.display == "initial"; i++) {}
-    if (i == 6) {
+    if (i == 6)
 	story[6].play()
-	container.style.pointerEvents = "none"
-	setTimeout(function(){
-	    container.style.pointerEvents = "auto"
-	}, story[type].duration * 1000);
-    }
 }
 
