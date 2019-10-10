@@ -6,11 +6,7 @@ body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-<<<<<<< HEAD
   font: 1.2em 'Gotham';
-=======
-  font: 1.2em "Gotham-light";
->>>>>>> 9b0c1157ffa6350d10ae72008723f9153f028131
 }
 #stone {
   position: absolute;
