@@ -184,7 +184,7 @@ body {
 
 #para-text {
   line-height: 5vh;
-  width: 13.5%;
+  width: 12.5vw;
   position: absolute;
   color: white;
   left: 4%;
@@ -214,4 +214,10 @@ body {
    left: 15%;
   border-right: 2px solid white;
   border-bottom: 2px solid white;
+}
+.intro-music{
+  position:absolute;
+  left:95%;
+  top: 85%;
+  color: #fff;
 }
