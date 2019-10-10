@@ -17,10 +17,11 @@ function take_stone(stones, gems, story, background, type){
 
     origin.style.display = "none"
     background[type].style.display = "initial"
-    for (i = 0; i <= 5; i++)
+    for (i = 0; i <= 5; i++) {
 	if (i != type)
 	    background[i].style.display = "none"
 	story[i].pause()
+    }
     stones[type].style.display = "none"
     gems[type].style.display = "initial"
     story[type].play()
