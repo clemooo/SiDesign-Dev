@@ -77,10 +77,9 @@ body {
 .container-gant .scroller span {
   position: absolute;
   top: 0;
-  left: 4vh;
-  width: 4vh;
-  height: 50%;
-  left: 90%;
+  width: 3vh;
+  height: 3vh;
+  right: 1%;
   margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
