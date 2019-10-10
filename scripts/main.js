@@ -24,8 +24,5 @@ function take_stone(stones, gems, story, background, type){
     stones[type].style.display = "none"
     gems[type].style.display = "initial"
     story[type].play()
-    for (i = 0; i < 6 && gems[i].style.display == "initial"; i++) {}
-    if (i == 6)
-	story[6].play()
 }
 
