@@ -2,15 +2,11 @@
   font-family: 'Gotham';
   src:url('fonts/gothambook') format('truetype') ;
 }
-@font-face {
-  font-family: 'Gotham-Light';
-  src:url('fonts/Gotham-Light') format('opentype') ;
-}
 body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em 'Gotham-light';
+  font: 1.2em 'Gotham';
 }
 
 #stone {
@@ -81,8 +77,8 @@ body {
 .container-gant .scroller span {
   position: absolute;
   top: 0;
-  left: 5vh;
-  width: 2vh;
+  left: 4vh;
+  width: 4vh;
   height: 50%;
   left: 90%;
   margin-left: -12px;
