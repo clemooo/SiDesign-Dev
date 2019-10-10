@@ -2,8 +2,9 @@ body {
   display: inline-block;
   flex-direction: column;
   margin: 0;
-  font: 1.2em "Gotham-light";
+  font: 1.2em 'Gotham-';
 }
+
 #stone {
   position: absolute;
   height: 20%;
@@ -54,7 +55,7 @@ body {
 .container-gant #stone:hover {
   cursor: pointer;
 }
-.container-gant a {
+.container-gant .scroller {
   position: absolute;
   padding-top: 50px;
   bottom: 10px;
@@ -66,75 +67,48 @@ body {
   text-decoration: none;
   transition: opacity 0.3s;
 }
-.container-gant a:hover {
+.container-gant .scroller:hover {
   opacity: 0.7;
 }
-.container-gant a span {
+.container-gant .scroller span {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 46px;
-  height: 46px;
-  margin-left: -23px;
-  border: 1px solid #fff;
-  border-radius: 100%;
-  box-sizing: border-box;
-}
-.container-gant a span::after {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  content: "";
-  width: 16px;
-  height: 16px;
-  margin: -12px 0 0 -8px;
+  width: 24px;
+  height: 24px;
+  margin-left: -12px;
   border-left: 1px solid #fff;
   border-bottom: 1px solid #fff;
   -webkit-transform: rotate(-45deg);
   transform: rotate(-45deg);
+  -webkit-animation: scroller 1.5s infinite;
+  animation: scroller 1.5s infinite;
   box-sizing: border-box;
 }
-.container-gant a span::before {
-  position: absolute;
-  top: 0;
-  left: 0;
-  content: "";
-  width: 44px;
-  height: 44px;
-  box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.1);
-  border-radius: 100%;
-  opacity: 0;
-  -webkit-animation: scroller 3s infinite;
-  animation: scroller 3s infinite;
-  box-sizing: border-box;
 }
 @-webkit-keyframes scroller {
   0% {
+    -webkit-transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
   }
-  30% {
+  50% {
     opacity: 1;
   }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0;
-  }
   100% {
+    -webkit-transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
 }
 @keyframes scroller {
   0% {
+    transform: rotate(-45deg) translate(0, 0);
     opacity: 0;
   }
-  30% {
+  50% {
     opacity: 1;
   }
-  60% {
-    box-shadow: 0 0 0 60px rgba(255, 255, 255, 0.1);
-    opacity: 0;
-  }
   100% {
+    transform: rotate(-45deg) translate(-20px, 20px);
     opacity: 0;
   }
 }
@@ -183,8 +157,8 @@ body {
 #stone:hover {
   filter: saturate(2);
   margin-top: 5px;
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
 }
 
 .fond {
@@ -195,14 +169,10 @@ body {
 
 #logo-avenger {
   position: absolute;
-  left: 22%;
+  left: 21%;
   top: 2%;
-}
-#srool-arrow {
-  position: absolute;
-  left: 22%;
-  top: 2%;
-  rotate: 180deg;
+  width: 60%;
+
 }
 
 .atmo {
@@ -215,5 +185,4 @@ body {
   left: 4%;
   top: 70%;
   font-size: 3vh;
-  font: "Gotham-bold";
 }
