@@ -184,11 +184,16 @@ body {
 }
 
 #para-text {
+  line-height: 5vh;
+  width: 15%;
   position: absolute;
   color: white;
   left: 4%;
   top: 70%;
-  font-size: 3vh;
+  font-size: 2.5vh;
+  text-align: center;
+  
+  
 }
 #vod-annonce{
   position: absolute;
