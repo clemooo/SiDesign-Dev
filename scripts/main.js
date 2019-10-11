@@ -39,4 +39,19 @@ function take_stone(stones, gems, story, background, type){
     }
 }
 
+//music off
+const musicButton = document.querySelector(".intro-music");
+const musicAudio = document.querySelector(".intro");
+const OffOn2 = document.querySelector(".musicOffOn");
+let switch2 = false;
 
+musicButton.addEventListener("click", function() {
+  if (switch2 == false) {
+    musicAudio.pause();
+    OffOn2.innerHTML = "Off";
+  } else {
+    musicAudio.play();
+    OffOn2.innerHTML = "On";
+  }
+  switch2 = !switch2;
+});
