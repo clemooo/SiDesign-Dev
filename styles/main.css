@@ -7,6 +7,7 @@ body {
     display: inline-block;
     flex-direction: column;
     margin: 0;
+    padding: 0;
     font: 1.2em 'Gotham';
 }
 
@@ -131,7 +132,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    animation: animate 20s linear infinite;
+    animation: animate 50s linear infinite;
 }
 
 @keyframes animate {
@@ -139,9 +140,10 @@ body {
 	right: 0px;
     }
     100% {
-	right: 600px;
+	right: 960px;
     }
 }
+
 
 #stone {
     animation: animate1 5s linear;
@@ -193,14 +195,13 @@ body {
 
 #para-text {
     line-height: 5vh;
-    width: 13.5%;
+    width: 13%;
     position: absolute;
     color: white;
     left: 4%;
     top: 70%;
     font-size: 2.5vh;
     text-align: left;
-    text-align-last: right;
 }
 
 #vod-annonce{
@@ -226,4 +227,17 @@ body {
 
 video{
     display: none;
+}
+#droit{
+    position: absolute;
+    top:95%;
+    left: 56%;
+    color: #fff;
+    font-size: 1vh;
+}
+.intro-music{
+ position: absolute;
+ top:83%;
+ left: 95%;
+ color: #fff;
 }
