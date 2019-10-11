@@ -133,7 +133,7 @@ body {
     position: fixed;
     width: 100vw;
     height: 100vh;
-    animation: animate 60s linear infinite;
+    animation: animate 50s linear infinite;
 }
 
 @keyframes animate {
@@ -141,7 +141,7 @@ body {
 	right: 0px;
     }
     100% {
-	right: 1920px;
+	right: 960px;
     }
 }
 
